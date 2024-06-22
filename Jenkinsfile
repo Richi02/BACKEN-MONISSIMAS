@@ -38,7 +38,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker build -t simple-php-website .'
+                sh 'docker build -t BACKEN-MONISSIMAS .'
             }
         }
 
