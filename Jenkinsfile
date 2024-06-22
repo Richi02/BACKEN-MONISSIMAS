@@ -5,7 +5,7 @@ pipeline {
         
         stage('Preparacion'){
             steps {
-                git branch:'main',url:''
+                git branch:'main',url:'https://github.com/Richi02/BACKEN-MONISSIMAS.git'
    	       		echo 'Pulled from github successfully'
             }
         }
