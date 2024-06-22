@@ -1,0 +1,1524 @@
+ERROR - 2023-06-25 17:29:05 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 17:29:05 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 17:32:37 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 17:32:37 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 17:33:18 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 17:33:18 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:38:52 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:39:11 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:39:27 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:40:36 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:41:39 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:44:39 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:46:52 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:46:57 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:48:33 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:50:13 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:52:05 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:52:32 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:54:26 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:55:48 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:56:10 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 17:56:29 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 18:00:13 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 18:00:18 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 18:03:48 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 18:04:04 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 18:34:36 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 18:34:36 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 18:34:50 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 18:34:50 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 19:10:06 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 19:12:40 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 19:13:21 --> Class 'App\Models\TiposPagosModel' not found
+in APPPATH/Controllers/TiposPagos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposPagos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposPagos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:06:45 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:06:45 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:12:40 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:12:40 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:12:51 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:12:51 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:13:33 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:13:33 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:13:39 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:13:39 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:13:48 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '3')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('3')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('3')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:13:48 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'3\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'3\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'3\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '3')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('3')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('3')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:18:31 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:18:31 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:18:33 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:18:33 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:19:08 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:19:08 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:19:13 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:19:13 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:19:16 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:19:16 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:22:11 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:22:11 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:26:33 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:26:33 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:27:23 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:27:23 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:27:27 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:27:27 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:31:01 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:31:01 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:31:38 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:31:38 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:34:24 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Productos.php(133): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-25 20:34:24 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (\'labial\', \'rosa claro\', \'15\', \'12\', \'5\', \'aa\', \'001\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (\'labial\', \'rosa claro\', \'15\', \'12\', \'5\', \'aa\', \'001\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (\'labial\', \'rosa claro\', \'15\', \'12\', \'5\', \'aa\', \'001\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (:nombreproducto:, :descripcion:, :precionormal:, :preciorebajado:, :cantidad:, :imagen:, :idcategoria:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Productos.php(133): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:37:15 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Productos.php(133): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-25 20:37:15 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (\'labial\', \'rosa claro\', \'15\', \'12\', \'5\', \'aa\', \'001\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (\'labial\', \'rosa claro\', \'15\', \'12\', \'5\', \'aa\', \'001\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (\'labial\', \'rosa claro\', \'15\', \'12\', \'5\', \'aa\', \'001\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Productos` (`nombreproducto`, `descripcion`, `precionormal`, `preciorebajado`, `cantidad`, `imagen`, `idcategoria`) VALUES (:nombreproducto:, :descripcion:, :precionormal:, :preciorebajado:, :cantidad:, :imagen:, :idcategoria:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Productos.php(133): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:38:37 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:38:37 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:38:42 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '3')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('3')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('3')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:38:42 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'3\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'3\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'3\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '3')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('3')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('3')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:38:57 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:38:57 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'2\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '2')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('2')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('2')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:39:42 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:39:42 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:39:56 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:39:56 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:40:15 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:40:15 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:43:21 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:43:21 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:45:11 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:45:11 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:45:33 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-25 20:45:33 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos`
+WHERE `Productos`.`idproducto` = :Productos.idproducto:', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Productos.php(195): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->update('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:45:37 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:45:37 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:47:21 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:47:21 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:47:39 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:47:39 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:47:51 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:47:51 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:53:59 --> Class 'App\Models\TiposProductosModel' not found
+in APPPATH/Controllers/TiposProductos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposProductos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposProductos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:55:20 --> Class 'App\Models\TiposProductosModel' not found
+in APPPATH/Controllers/TiposProductos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposProductos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposProductos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-25 20:55:37 --> Class 'App\Models\TiposProductosModel' not found
+in APPPATH/Controllers/TiposProductos.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\TiposProductos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiposProductos))
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-25 20:57:56 --> mysqli_sql_exception: Table 'app_belleza.Productos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Productos->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-25 20:57:56 --> Table 'app_belleza.Productos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Productos` `c`
+JOIN `categorias` `cc` ON `c`.`idcategoria` = `cc`.`idcategoria`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/ProductosModel.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Productos.php(18): App\Models\ProductosModel->getProductos()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Productos->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

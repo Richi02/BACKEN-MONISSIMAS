@@ -1,0 +1,90 @@
+ERROR - 2023-11-08 16:03:52 --> mysqli_sql_exception: Table 'app_belleza.user' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/UsersModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Users.php(18): App\Models\UsersModel->getUsers()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Users->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-08 16:03:52 --> Table 'app_belleza.user' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/UsersModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Users.php(18): App\Models\UsersModel->getUsers()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-08 16:05:05 --> mysqli_sql_exception: Table 'app_belleza.user' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/app/Models/UsersModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/app/Controllers/Users.php(18): App\Models\UsersModel->getUsers()
+#6 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Users->index()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-08 16:05:05 --> Table 'app_belleza.user' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user` `c`
+JOIN `rol` `tc` ON `c`.`rolid` = `tc`.`idrol`
+JOIN `empresa` `cc` ON `c`.`empresaid` = `cc`.`idempresa`
+JOIN `sucursal` `nc` ON `c`.`sucursalid` = `nc`.`sucuid`
+WHERE `c`.`estado` = :c.estado:', [...], false)
+ 5 APPPATH/Models/UsersModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Users.php(18): App\Models\UsersModel->getUsers()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Users->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

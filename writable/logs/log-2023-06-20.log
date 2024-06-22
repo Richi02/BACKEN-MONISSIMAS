@@ -1,0 +1,621 @@
+CRITICAL - 2023-06-20 01:36:04 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('10', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('10')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:37:16 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:37:18 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:41:59 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:42:35 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:43:04 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('1', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('1')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:43:26 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('10', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('10')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-20 01:43:37 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 924.
+ 1 SYSTEMPATH/BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH/Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH/Controllers/Trabajadores.php(278): CodeIgniter\Model->update('10', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Trabajadores->delete('10')
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Trabajadores))
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 02:28:19 --> mysqli_sql_exception: Table 'app_belleza.categorias' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/app/public_html/belleza/app/Controllers/Categorias.php(23): CodeIgniter\BaseModel->findAll()
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Categorias->index()
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 02:28:19 --> Table 'app_belleza.categorias' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `categorias`
+WHERE `estado` = 1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categorias`
+WHERE `estado` = 1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categorias`
+WHERE `estado` = 1')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categorias`
+WHERE `estado` = :estado:', [...], false)
+ 5 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH/Controllers/Categorias.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Categorias->index()
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 08:19:04 --> mysqli_sql_exception: Unknown column 'prov_nombre' in 'field list' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Proveedores.php(136): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 08:19:04 --> Unknown column 'prov_nombre' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'brenda\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'brenda\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'brenda\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (:prov_nombre:, :tipoDocumento:, :numeroDocumento:, :direccion:, :telefono:, :correo:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Proveedores.php(136): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 08:19:52 --> mysqli_sql_exception: Unknown column 'prov_nombre' in 'field list' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Proveedores.php(136): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 08:19:52 --> Unknown column 'prov_nombre' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (:prov_nombre:, :tipoDocumento:, :numeroDocumento:, :direccion:, :telefono:, :correo:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Proveedores.php(136): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 08:20:21 --> mysqli_sql_exception: Unknown column 'prov_nombre' in 'field list' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Proveedores.php(136): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 08:20:21 --> Unknown column 'prov_nombre' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (:prov_nombre:, :tipoDocumento:, :numeroDocumento:, :direccion:, :telefono:, :correo:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Proveedores.php(136): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 08:20:46 --> mysqli_sql_exception: Unknown column 'prov_nombre' in 'field list' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Proveedores.php(136): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 08:20:46 --> Unknown column 'prov_nombre' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (:prov_nombre:, :tipoDocumento:, :numeroDocumento:, :direccion:, :telefono:, :correo:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Proveedores.php(136): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 08:21:56 --> mysqli_sql_exception: Unknown column 'prov_nombre' in 'field list' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Proveedores.php(136): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 08:21:56 --> Unknown column 'prov_nombre' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (:prov_nombre:, :tipoDocumento:, :numeroDocumento:, :direccion:, :telefono:, :correo:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Proveedores.php(136): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 08:23:23 --> mysqli_sql_exception: Unknown column 'prov_nombre' in 'field list' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Proveedores.php(136): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 08:23:23 --> Unknown column 'prov_nombre' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (\'bren\', \'dni\', \'76430535\', \'salavdor allenda\', \'938195104\', \'luci@hotmail.com\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `proveedores` (`prov_nombre`, `tipoDocumento`, `numeroDocumento`, `direccion`, `telefono`, `correo`) VALUES (:prov_nombre:, :tipoDocumento:, :numeroDocumento:, :direccion:, :telefono:, :correo:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Proveedores.php(136): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 19:01:02 --> mysqli_sql_exception: Table 'app_belleza.articulos' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ar...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ar...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ar...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ar...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Articulos.php(142): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Articulos->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 19:01:02 --> Table 'app_belleza.articulos' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `articulos` (`nombre`, `id_categoria`, `stocks`, `precio_normal`, `precio_rebajado`, `codigo`, `cantidad`, `descripcion`, `imagen`, `fechaCreacion`) VALUES (\'labial\', \'1\', \'5\', \'200\', \'120\', \'202020\', \'68\', \'kn\', \'kln\', \'156\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `articulos` (`nombre`, `id_categoria`, `stocks`, `precio_normal`, `precio_rebajado`, `codigo`, `cantidad`, `descripcion`, `imagen`, `fechaCreacion`) VALUES (\'labial\', \'1\', \'5\', \'200\', \'120\', \'202020\', \'68\', \'kn\', \'kln\', \'156\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `articulos` (`nombre`, `id_categoria`, `stocks`, `precio_normal`, `precio_rebajado`, `codigo`, `cantidad`, `descripcion`, `imagen`, `fechaCreacion`) VALUES (\'labial\', \'1\', \'5\', \'200\', \'120\', \'202020\', \'68\', \'kn\', \'kln\', \'156\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `articulos` (`nombre`, `id_categoria`, `stocks`, `precio_normal`, `precio_rebajado`, `codigo`, `cantidad`, `descripcion`, `imagen`, `fechaCreacion`) VALUES (:nombre:, :id_categoria:, :stocks:, :precio_normal:, :precio_rebajado:, :codigo:, :cantidad:, :descripcion:, :imagen:, :fechaCreacion:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Articulos.php(142): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Articulos->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Articulos))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 19:04:00 --> mysqli_sql_exception: Table 'app_belleza.categorias' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Categorias.php(123): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Categorias->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 19:04:00 --> Table 'app_belleza.categorias' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (:nombre:, :descripcion:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Categorias.php(123): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Categorias->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 19:14:31 --> mysqli_sql_exception: Table 'app_belleza.categorias' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Categorias.php(123): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Categorias->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 19:14:31 --> Table 'app_belleza.categorias' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (:nombre:, :descripcion:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Categorias.php(123): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Categorias->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 19:15:13 --> mysqli_sql_exception: Table 'app_belleza.categorias' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Categorias.php(123): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Categorias->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 19:15:13 --> Table 'app_belleza.categorias' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (:nombre:, :descripcion:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Categorias.php(123): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Categorias->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 19:16:19 --> mysqli_sql_exception: Table 'app_belleza.categorias' doesn't exist in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/app/public_html/belleza/system/BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 /home/app/public_html/belleza/system/Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/app/public_html/belleza/app/Controllers/Categorias.php(123): CodeIgniter\Model->insert(Array)
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Categorias->create()
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#10 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-20 19:16:19 --> Table 'app_belleza.categorias' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (\'labial\', \'kn\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `categorias` (`nombre`, `descripcion`) VALUES (:nombre:, :descripcion:)', [...], false)
+ 5 SYSTEMPATH/Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH/Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH/Controllers/Categorias.php(123): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Categorias->create()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:28:23 --> mysqli_sql_exception: Unknown column 'proveedores.prov_id' in 'where clause' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Proveedores.php(64): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->show('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 23:28:23 --> Unknown column 'proveedores.prov_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = :estado:
+AND `proveedores`.`prov_id` = :proveedores.prov_id :', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Proveedores.php(64): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->show('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:41:36 --> mysqli_sql_exception: Unknown column 'proveedores.prov_id' in 'where clause' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Proveedores.php(64): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->show('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 23:41:36 --> Unknown column 'proveedores.prov_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = :estado:
+AND `proveedores`.`prov_id` = :proveedores.prov_id :', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Proveedores.php(64): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->show('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:42:30 --> mysqli_sql_exception: Unknown column 'proveedores.prov_id' in 'where clause' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+#6 /home/app/public_html/belleza/app/Controllers/Proveedores.php(259): CodeIgniter\BaseModel->find('1')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->delete('1')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 23:42:30 --> Unknown column 'proveedores.prov_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = :estado:
+AND `proveedores`.`prov_id` = :proveedores.prov_id :', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Controllers/Proveedores.php(259): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->delete('1')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:43:06 --> mysqli_sql_exception: Unknown column 'proveedores.prov_id' in 'where clause' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+#6 /home/app/public_html/belleza/app/Controllers/Proveedores.php(259): CodeIgniter\BaseModel->find('5')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->delete('5')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 23:43:06 --> Unknown column 'proveedores.prov_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'5\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'5\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'5\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = :estado:
+AND `proveedores`.`prov_id` = :proveedores.prov_id :', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH/Controllers/Proveedores.php(259): CodeIgniter\BaseModel->find('5')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-20 23:43:35 --> mysqli_sql_exception: Unknown column 'proveedores.prov_id' in 'where clause' in /home/app/public_html/belleza/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /home/app/public_html/belleza/system/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/app/public_html/belleza/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/app/public_html/belleza/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/app/public_html/belleza/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/app/public_html/belleza/system/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/app/public_html/belleza/system/BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+#6 /home/app/public_html/belleza/app/Controllers/Proveedores.php(259): CodeIgniter\BaseModel->find('5')
+#7 /home/app/public_html/belleza/system/CodeIgniter.php(934): App\Controllers\Proveedores->delete('5')
+#8 /home/app/public_html/belleza/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+#9 /home/app/public_html/belleza/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/app/public_html/belleza/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-20 23:43:35 --> Unknown column 'proveedores.prov_id' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'5\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'5\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `proveedores`
+WHERE `estado` = 1
+AND `proveedores`.`prov_id` = \'5\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `proveedores`
+WHERE `estado` = :estado:
+AND `proveedores`.`prov_id` = :proveedores.prov_id :', [...], false)
+ 5 SYSTEMPATH/Model.php(200): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(557): CodeIgniter\Model->doFind(true, '5')
+ 7 APPPATH/Controllers/Proveedores.php(259): CodeIgniter\BaseModel->find('5')
+ 8 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Proveedores->delete('5')
+ 9 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+10 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
