@@ -1,0 +1,7 @@
+services:
+   appphp:
+    image: backend-monissimas
+    container_name: monissimas-app
+    #restart: always
+    ports:
+      - 80:80
