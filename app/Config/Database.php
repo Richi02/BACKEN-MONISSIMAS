@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'restful',
+        'hostname' => 'mariadb.cbaias5jacne.us-east-1.rds.amazonaws.com',
+        'username' => 'admin',
+        'password' => 'q8,{x=UP&ct7{%H3y',
+        'database' => 'app_belleza',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
