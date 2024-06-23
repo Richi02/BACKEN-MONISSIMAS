@@ -5,7 +5,7 @@ pipeline {
         
         stage('Preparacion'){
             steps {
-                git 'git@github.com:Richi02/BACKEN-MONISSIMAS.git'
+                git branch:'master',url:'https://github.com/MarcoRC12/backend-PanMovilTest'
    	       		echo 'Pulled from github successfully'
             }
         }
