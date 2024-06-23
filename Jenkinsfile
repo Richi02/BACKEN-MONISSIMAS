@@ -18,7 +18,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker build -t BACKEN-MONISSIMAS .'
+                sh 'docker build -t backen-monissimas .'
             }
         }
 
